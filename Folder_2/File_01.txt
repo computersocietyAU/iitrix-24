@@ -1,0 +1,42 @@
+In a cozy workshop tucked away in a bustling marketplace, there worked a skilled embroiderer named Mia. Mia was known for her meticulous attention to detail and
+ her ability to weave magic into every stitch. One sunny morning, a merchant approached Mia with a unique request.
+
+The merchant, preparing for a grand festival, needed a banner to adorn his stall. But here was the twist - he wanted a specific phrase to be featured 
+a required number of times within the banner, and he desired it to be as compact as possible to catch the eye of passersby without overwhelming the space.
+
+Intrigued by the challenge, Mia eagerly accepted the task. She understood that she needed to create a string that contained the phrase say PHR 
+exactly the required number of times say NUM while minimizing its length to ensure it fits snugly within the allotted space above the merchant's stall.
+
+With nimble fingers and a creative mind, Mia set to work. But , since she was too busy with other works that are need to be completed, its your turn to help Mia with the challenge.
+Get ready to take up the task and submit the banner containing the required phrase satisfying the request of the merchant.
+
+Input Format:
+- First line will contain the number of test cases T
+- Each of the T lines, will contain a string PHR in the first line and an integer NUM in the next line.
+
+Constraints:
+1 <= T <= 105
+1 <= len(PHR) <= 105
+1 <= NUM <= 10000
+
+Output Format:
+For each test case, print the phrase that has to be print in banner satisfying the request of the merchant.
+
+Sample Input 0:
+1
+abba
+3
+
+Sample Output 0:
+abbabbabba
+
+Explanation 0:
+The string abba occurs 3 times in the string abbabbabba, i.e. {abba**bbabba, abb**abba**bba, abbabb**abba}
+
+Sample Input 1:
+1
+abbccaab
+3
+
+Sample Output 1:
+abbccaabbccaabbccaab
